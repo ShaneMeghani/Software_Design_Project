@@ -1,0 +1,48 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <link rel="stylesheet" href="styles.css">
+        <h3>Click "View" To See Your Past Orders Displayed Below:</h3>
+
+        <form id="get_his" action="history1.php" method="POST">
+          <input type="submit" value="View">
+          <br>
+          <br>
+        </form>
+
+        <table>
+          <tr>
+            <th>Date:</th>
+            <th>Amount Of Gallons</th>
+            <th>Delivery Address</th>
+            <th>Total Price</th>
+          </tr>
+
+          <tr>
+            <td>2/16/2021</td>
+            <td>10</td>
+            <td>1203 Cheap Street Dr</td>
+            <td>100$</td>
+          </tr>
+
+          <style>
+              td, th {
+              border: 1px solid #999;
+              padding: 0.5rem;
+              }
+          </style>
+          
+        </table>
+
+        <form id="go_gack" action="history2.php" method="POST">
+          <br>
+          <br>
+          <input type="submit" value="Go Back">
+        </form>
+
+    </body>
+</html>
