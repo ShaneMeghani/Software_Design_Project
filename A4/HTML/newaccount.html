@@ -1,0 +1,31 @@
+<?php
+    session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+
+    <body>
+    <link rel="stylesheet" href="styles.css">
+    
+        <div id="newuser-firstinfo">
+            <h1>Become A Cheap Boi Member!</h1>
+            <h2>Create An Account And Save By Filling Out The Information Below:</h2>
+        </div>
+
+        <form id="newuser-input" action="newaccount.php" method="POST">
+            <div id="second-inputs">
+
+                <input type="username" placeholder="username" name=u-name id="get-newusername" minlength="8" pattern="[^\s]+" required>
+                <br>
+                <br>
+
+                <input type="password" placeholder="Password" name="newpassword" id="get-newpassword" minlength="8" pattern="[^\s]+" required>
+                <br>
+                <br>
+
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
