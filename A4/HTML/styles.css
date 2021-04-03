@@ -1,0 +1,41 @@
+
+body {
+	background-color: hsl(99, 43%, 51%, 0.3);
+	text-align: center;
+	font-family: oswald;
+	font-size: 22px;
+	color: dimgray;
+}
+
+h3   {
+	font-family: Arial;
+	font-size: 30px;
+}
+
+form {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+strong {
+	font-size: 18px;	
+}
+
+table { 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornflowerblue; 
+    border: groove;
+	border-style: double;
+	color: black;
+}
+
+input {
+	background-color: cornflowerblue;
+	border: groove;
+	border-style: double;
+	color: black;
+	padding: 5px 20px;
+	display: inline-block;
+	font-size: 20px;	
+}
