@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+    	<link rel="stylesheet" href="styles.css">
+        <h3>Please Fill Out The Information Below And Click "Calculate" To See Your Total Price</h3>
+
+        <form id="set-fuel" action="fuel1.php" method="POST">
+            <div id="third-inputs">
+
+                <label>Gallons of Fuel:</label>
+                <input type="number" placeholder="#" name=gallons id="get-gallons" min="1" max="5001" minlength="1" required>
+                <br>
+                <br>
+
+                <label>Delivery Address:</label>
+                <select name="DA" id="get-DA" required>
+                    <option value="address1">Address 1</Address></option>
+                    <option value="address2">Address 2</option>
+                </select>
+                <br>
+                <br>
+
+                <label>Delivery Date:</label>
+                <input type="date" placeholder="Delivery Date" name="DD" id="n_get-DDate" required>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <input type="submit" value="Get Quote">
+            </div>
+        </form>
+
+        <form id="nope1" action="fuel4.php" method="POST">
+            <br>
+            <input type='submit' value='Cancel'>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Software Design Project</title>
+    </head>
+
+    <body>
+    <link rel="stylesheet" href="styles.css">
+        
+        <div id="title">
+            <h1>Cheap Boi Fuel INC</h1>
+        </div>
+
+        <div id="welcome">
+            <h2>Welcome Back! Please Sign In Or Click "Create Account" To Make A New Account:</h2>
+        </div>
+
+        <form id="intial-input" action="login1.php" method="POST">
+
+            <div id="login-inputs">
+
+                <strong>Enter Username:</strong>
+                <br>
+                <input placeholder="username" name=user_name id="get-username" minlength="8" pattern="[^\s]+" required>
+
+                <br>
+                <br>
+
+                <strong>Enter Password:</strong>
+                <br>
+                <input type="password" placeholder="password" name="password" id="get-password" minlength="8" pattern="[^\s]+" required>
+
+                <br>
+                <br>
+
+                <input type="submit" value="Sign In">
+
+            </div>
+        </form>
+
+        <br>
+        <br>
+
+        <form id="Register" action="login2.php" method="POST">
+
+            <div id="new-account">
+
+                <strong>Click Here To Make An Account:</strong>
+                <br>
+                <input type="submit" value="Create Account">
+
+            </div>
+        </form>
+        
+    </body>
+</html>
